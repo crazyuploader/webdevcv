@@ -3,99 +3,64 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Elisha's Personal Site</title>
+  <title>Elisha Singh</title>
+  <link rel="stylesheet" href="CSS\styles.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Merriweather:wght@300&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="40">
-    <tr>
-      <td> <img
-          src="https://instagram.fpat3-2.fna.fbcdn.net/v/t51.2885-19/s320x320/123142334_280341246512968_3907647173264598921_n.jpg?_nc_ht=instagram.fpat3-2.fna.fbcdn.net&_nc_ohc=VjLxyehtKzMAX-kbje9&tp=1&oh=a18c99094aa39b1c7032d7fafc049154&oe=60417607"
-          alt="Elisha's proile photo"></td>
-      <td>
-        <h1>Elisha Singh</h1>
-        <p><em>Student at <strong>VIT,Bhopal</strong> </em></p>
-        <p>I am learning Web Developement right now. I am a national level athlete also.</p>
-      </td>
-    </tr>
-  </table>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png">
+    <alt="cloud image">
+      <h1>I'm Elisha</h1>
+      <p style="color:  #66BFBF; font-weight:bold; ">A Web Designer</p>
+      <img class="mountain" src="images/mountain.png">
+      <alt="mountain image">
+        <img class="bottom-cloud" src="images/cloud.png">
+        <alt="cloud image">
+  </div>
+  <div>
+    <img class="profile" src="images/faviconpic.jpg"></img> <alt="profile picture">
+    <h3>Hello!</h3>
+    <p class="intro">I am an engineering student at VIT, Bhopal.<br> I've taken up Computer Science as my core subject, along with Artificial Intelligence and Machine Learning as my specialisation.</p>
+  </div>
+  <hr>
+  <div class="skills">
+    <h3>My Skills</h3>
 
-  <p><a href="https://www.instagram.com/elisha__singh/">My Instagram</a></p>
+    <div class="skillrow">
+      <img class="developer" src="images/developer.png"> <alt="Web Developer">
+      <h4>Web Design& Developement</h4>
+      <p>I'm currently a newbie at web developement, and this is my first website.</p>
+    </div>
+    <div class="skillrow">
+      <img class="java" src="images/java.png"></img> <alt="Java Programming">
+      <h4>Java Programming</h4>
+      <p>I started learning Java when I was in 8th standard, and it has interested me eversince.</p>
+    </div>
+    <div class="skillrow">
+      <img class="python" src="images/python.png"></img> <alt="Python Programming">
+      <h4>Python Programming</h4>
+      <p>I studied Python in my first year of college. The libraries are amazing. I have also developed 2 projects using python. One was a virtual voice assistant model.</p>
+    </div>
 
-  <hr size=5 noshade>
-  <h3>Education</h3>
-  <ul>
-    <li>Riverdale School</li>
-    <li>Seth M.R. Jaipuria School</li>
-    <li>VIT, Bhopal</li>
-  </ul>
-  <hr size=5 noshade>
-  <h3>My Hobbies</h3>
-  <ol>
-    <li>Dancing</li>
-    <li>Playing outdoor sports</li>
-    <li>Learning new things</li>
-    <li>Travelling</li>
-  </ol>
-  <hr size=5 noshade>
-  <h3>Work Experience</h3>
-
-  <table border="1" solid>
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th>Work</th>
-        <th>Remark</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td>2003-2005</td>
-        <td>Student at Riverdale</td>
-        <td>Not so great!</td>
-      </tr>
-      <tr>
-        <td>2005-2018</td>
-        <td>Student at Seth M.R. Jaipuria School</td>
-        <td>Great place!</td>
-      </tr>
-    </tbody>
-
-  </table>
-  <hr size=5 noshade>
-  <h3>Skills</h3>
-  <table cellspacing="5px" border="1px" cellpadding="5px" >
-    <tr>
-      <td>Java programming</td>
-      <td>&#11088;&#11088;&#11088;&#11088;</td>
-    </tr>
-    <tr>
-      <td>Python</td>
-      <td>&#11088;&#11088;&#11088;</td>
-    </tr>
-    <tr>
-      <td>Dancing</td>
-      <td>&#11088;&#11088;&#11088;&#11088;</td>
-    </tr>
-    <tr>
-      <td>Sports</td>
-      <td>&#11088;&#11088;&#11088;&#11088;</td>
-    </tr>
-    <tr>
-      <td>Web Developement</td>
-      <td>In Progress</td>
-    </tr>
-    <tr>
-      <td>Data Structures</td>
-      <td>&#11088;&#11088;&#11088;&#11088;</td>
-    </tr>
-    <tr>
-      <td>Management Skills</td>
-      <td>&#11088;&#11088;&#11088;&#11088;</td>
-    </tr>
-  </table>
-  <h3><a href="contactme.html">Contact me</a></h3>
+  </div>
+<hr>
+<div>
+  <h3 class="contactme">Get In Touch</h3>
+  <h5 style="font-size: 20px; color:  #66BFBF;">Contact me for work.</h5>
+</div>
+<br>
+<footer class="footer">
+  <a href="mailto: elisha.singh2019@vitbhopal.ac.in"><img class="contacticons" src="images/gmail.png"></img> <alt="Contact Me"> </a>
+  <a href="https://www.instagram.com/elisha__singh/" target="_blank"><img class="contacticons" src="images/instagram.png"></img> <alt="Instagram"> </a>
+  <a href="https://www.linkedin.com/in/elisha-singh-4649341a4/" target="_blank"><img class="contacticons" src="images/linkedin.png"></img> <alt="LinkedIn">  </a>
+  <a href="file:///D:/Web%20Dev/web%20developement/CSS-My%20Site/index.html" target="_blank"><img class="contacticons" src="images/global.png"></img> <alt="Website"> </a>
+  <br>
+  <p class="copyright">&#169; Elisha Singh @ official</p>
+</footer>
 </body>
 
 </html>
